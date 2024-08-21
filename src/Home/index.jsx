@@ -10,9 +10,10 @@ export default function Home() {
     return (
         <>
            
-            <p>Games Retrô</p>
-            <Header />
+           
+          
             <Carousel
+      
                 infiniteLoop
                 useKeyboardArrows
                 autoPlay
@@ -21,6 +22,8 @@ export default function Home() {
                 showThumbs={false}
                 dynamicHeight
             >
+
+
                 <div>
                 <img src="https://acdn.mitiendanube.com/stores/002/082/206/themes/amazonas/2-slide-1708449498977-4226813327-51cabb7ee3e683b5a2492b057395a8d01708449500-1920-1920.webp?1575283242" alt="Slide 1" />
                 </div>
@@ -31,10 +34,11 @@ export default function Home() {
                 <img src="https://acdn.mitiendanube.com/stores/002/082/206/themes/amazonas/1-slide-1681906025825-8276880475-b49d90824a921dc0660556024e5e57d91681906027-1920-1920.webp?1575283242" alt="Slide 3" />
                 </div>
                 
-
-
+             
+               
                 
             </Carousel>
+            <Header/>
         </>
     );
 }
