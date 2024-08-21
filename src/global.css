@@ -1,5 +1,56 @@
 img{
-    width: 300px;
+    width: 100px;
     height: 300px;
     border-radius: 20px;
+}
+/* Ajuste para o banner */
+.banner-container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;  /* Garante que não haja transbordamento */
+    display: flex;
+    justify-content: center;
+}
+
+.banner {
+    display: block;
+    width: 100%;  /* Garante que a imagem ocupe toda a largura disponível */
+    height: auto;  /* Mantém a proporção da altura */
+    max-width: 1920px; /* Define uma largura máxima para telas grandes */
+}
+
+/* Outros estilos */
+.img-logo {
+    width: 150px;
+    height: auto;
+}
+
+.img-retro-games img {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+#top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ff009d;
+    color: rgb(25, 0, 255);
+}
+
+nav img {
+    display: block;
+    margin:  150px;
+    width: 300px;
+    height: auto;
+}
+
+.Listas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
