@@ -1,25 +1,15 @@
 import React from 'react';
 
-
-const ListarProdutos = ({ produtos }) => {
+export default function ListarProdutos({ produtos }) {
   return (
-    <div className="lista-produtos">
-      {produtos.map((produto) => (
+    <div className="produtos-container">
+      {produtos.map(produto => (
         <div key={produto.id} className="produto">
           <img src={produto.imagem} alt={produto.nome} />
-          <h3>{produto.nome}</h3>
-          <p>{produto.descricao}</p>
-          <p>Preço: R${produto.preco}</p>
-          <p>Categoria: {produto.categoria}</p>
-          <ul>
-            {produto.atributos.map((atributo, index) => (
-              <li key={index}>{atributo}</li>
-            ))}
-          </ul>
+          <h2>{produto.nome}</h2>
+          <p>Preço: R${produto.preco.toFixed(2)}</p>
         </div>
       ))}
     </div>
   );
-};
-
-export default ListarProdutos;
+}

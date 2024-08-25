@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../global.css';
 
-const Header = () => {
+export default function Header() {
   return (
     <header className="header">
       <div className="logo">
@@ -9,13 +10,11 @@ const Header = () => {
       </div>
       <nav>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/produtos">Produtos</a></li>
-          <li><a href="/ofertas">Ofertas</a></li>
+          <li><Link to="/">Home</Link></li> 
+          <li><Link to="/produtos">Produtos</Link></li> 
+          <li><Link to="/ofertas">Ofertas</Link></li> 
         </ul>
       </nav>
     </header>
   );
-};
-
-export default Header;
+}

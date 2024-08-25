@@ -10,7 +10,7 @@ export default function Home() {
     {
       id: 1,
       nome: 'CONSOLE - EMULADOR COM 90 MIL JOGOS C/ CONTROLE SEM FIO',
-      descricao: 'ESSE PRODUTO É NOVO',
+      descricao: 'PRODUTO NOVO',
       preco: 499.90,
       categoria: 'Consoles',
       atributos: ['Cor: Preto'],
@@ -19,7 +19,7 @@ export default function Home() {
     {
       id: 2,
       nome: 'CONSOLE - SUPER NINTENDO',
-      descricao: 'ESSE PRODUTO É USADO',
+      descricao: 'PRODUTO USADO',
       preco: 599.90,
       categoria: 'Consoles',
       atributos: ['Cor: Branco'],
@@ -28,29 +28,29 @@ export default function Home() {
     {
       id: 3,
       nome: 'CONSOLE - MEGA DRIVE 3',
-      descricao: 'ESSE PRODUTO É USADO',
+      descricao: 'PRODUTO USADO',
       preco: 359.90,
-      categoria: 'Acessórios',
-      atributos: ['Cor: Preto', 'Resistente à água', 'Pulseira de silicone'],
-      imagem: 'URL_DA_IMAGEM_RELOGIO',
+      categoria: 'Consoles',
+      atributos: ['Cor: Preto'],
+      imagem: 'https://acdn.mitiendanube.com/stores/002/082/206/products/img_8647-0721a8b96f150f101d17151754438813-640-0.webp',
     },
     {
       id: 4,
-      nome: 'Mochila Executiva',
-      descricao: 'Mochila espaçosa e resistente.',
-      preco: 129.99,
-      categoria: 'Acessórios',
-      atributos: ['Cor: Cinza', 'Compartimento para notebook', 'Resistente à água'],
-      imagem: 'URL_DA_IMAGEM_MOCHILA',
+      nome: 'CONSOLE - PLAYSTATION 3 SLIM - EDIÇÃO LIMITADA FINAL FANTASY XIII-2 320GB',
+      descricao: 'PRODUTO USADO',
+      preco: 3599,
+      categoria: 'Consoles',
+      atributos: ['Cor: Personalizado'],
+      imagem: 'https://acdn.mitiendanube.com/stores/002/082/206/products/dsc03073-21-eb39f8ecfd8723906b16518535815168-640-0.webp',
     },
     {
       id: 5,
-      nome: 'Fone de Ouvido Bluetooth',
-      descricao: 'Fone de ouvido sem fio com alta qualidade de som.',
-      preco: 299.99,
-      categoria: 'Eletrônicos',
-      atributos: ['Cor: Preto', 'Alcance: 10m', 'Bateria de longa duração'],
-      imagem: 'URL_DA_IMAGEM_FONE',
+      nome: 'CONSOLE - NINTENDO 64',
+      descricao: 'PRODUTO USADO',
+      preco: 1999,
+      categoria: 'Consoles',
+      atributos: ['Cor: Cinza'],
+      imagem: 'https://acdn.mitiendanube.com/stores/002/082/206/products/img_1425-13ff75f37e51a4873217000648950878-640-0.webp',
     },
   ]);
 
@@ -77,7 +77,7 @@ export default function Home() {
             <img src="https://acdn.mitiendanube.com/stores/002/082/206/themes/amazonas/1-slide-1681906025825-8276880475-b49d90824a921dc0660556024e5e57d91681906027-1920-1920.webp?1575283242" alt="Slide 3" />
           </div>
         </Carousel>
-        <h1>Produtos em Destaque</h1>
+        <h1>Produtos com preço IMPERDIVEL!!!!!!</h1>
         <ListarProdutos produtos={produtos} />
       </main>
       <Footer />
